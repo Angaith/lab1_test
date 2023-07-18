@@ -4,4 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-	return f"<p>Hello World!</p>"
+	features = []
+	feature2 = "This is feature 2 functionality"
+	features.append(feature2)
+	return f"<p>{features}</p>"
